@@ -7,10 +7,8 @@ dodger.style.bottom = "0px";
 document.addEventListener("keydown", function(event) {
     if (event.key == "ArrowLeft") {
         moveDodgerLeft() ;
-        //console.log("Left");
     } else if (event.key == "ArrowRight") {
         moveDodgerRight() ;
-        //console.log("Right");
     }
 });
 
